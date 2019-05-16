@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Manual suite]">
+  <test name="Manual Test1">
+    <classes>
+      <class name="runXmlProgramatically.SampleTestDemo"/>
+      <class name="runXmlProgramatically.SampleTestDemo2"/>
+    </classes>
+  </test> <!-- Manual Test1 -->
+  <test name="Manual Test2">
+    <classes>
+      <class name="runXmlProgramatically.SampleTestDemo"/>
+      <class name="runXmlProgramatically.SampleTestDemo2"/>
+    </classes>
+  </test> <!-- Manual Test2 -->
+</suite> <!-- Failed suite [Manual suite] -->

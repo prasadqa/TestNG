@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser]" parallel="tests">
+  <parameter name="browser" value="edge"/>
+  <parameter name="url" value="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/"/>
+  <test name="CrossBrowserTest1">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testNG.CrossBrowserTest"/>
+    </classes>
+  </test> <!-- CrossBrowserTest1 -->
+  <test name="CrossBrowserTest2">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="testNG.CrossBrowserTest"/>
+    </classes>
+  </test> <!-- CrossBrowserTest2 -->
+  <test name="CrossBrowserTest3">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/"/>
+    <classes>
+      <class name="testNG.CrossBrowserTest"/>
+    </classes>
+  </test> <!-- CrossBrowserTest3 -->
+</suite> <!-- Failed suite [CrossBrowser] -->
